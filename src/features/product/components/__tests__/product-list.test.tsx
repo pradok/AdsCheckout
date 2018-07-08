@@ -2,7 +2,7 @@ import * as React from 'react';
 import {shallow} from 'enzyme';
 
 import ProductList from '../product-list';
-import {Product} from '../models';
+import {Product} from '../../models';
 
 const products: Product[] = [
   {

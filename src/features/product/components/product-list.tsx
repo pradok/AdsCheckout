@@ -1,7 +1,7 @@
 import * as React from 'react';
 
 import ProductItem from './product-item';
-import {Product} from './models';
+import {Product} from '../models';
 
 export interface Props {
   products: Product[];
