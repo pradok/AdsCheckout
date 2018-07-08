@@ -1,0 +1,260 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProductList> renders correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ProductList
+    addToCart={[MockFunction]}
+    products={
+      Array [
+        Object {
+          "id": "classic",
+          "price": 269.99,
+          "title": "Classic Ad",
+        },
+        Object {
+          "id": "standout",
+          "price": 322.99,
+          "title": "Standout Ad",
+        },
+        Object {
+          "id": "premium",
+          "price": 394.99,
+          "title": "Premium Ad",
+        },
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h2>
+          Ad packages
+        </h2>,
+        Array [
+          <ProductItem
+            onClickAddToCart={[Function]}
+            product={
+              Object {
+                "id": "classic",
+                "price": 269.99,
+                "title": "Classic Ad",
+              }
+            }
+          />,
+          <ProductItem
+            onClickAddToCart={[Function]}
+            product={
+              Object {
+                "id": "standout",
+                "price": 322.99,
+                "title": "Standout Ad",
+              }
+            }
+          />,
+          <ProductItem
+            onClickAddToCart={[Function]}
+            product={
+              Object {
+                "id": "premium",
+                "price": 394.99,
+                "title": "Premium Ad",
+              }
+            }
+          />,
+        ],
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Ad packages",
+        },
+        "ref": null,
+        "rendered": "Ad packages",
+        "type": "h2",
+      },
+      Object {
+        "instance": null,
+        "key": "classic",
+        "nodeType": "function",
+        "props": Object {
+          "onClickAddToCart": [Function],
+          "product": Object {
+            "id": "classic",
+            "price": 269.99,
+            "title": "Classic Ad",
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "standout",
+        "nodeType": "function",
+        "props": Object {
+          "onClickAddToCart": [Function],
+          "product": Object {
+            "id": "standout",
+            "price": 322.99,
+            "title": "Standout Ad",
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "premium",
+        "nodeType": "function",
+        "props": Object {
+          "onClickAddToCart": [Function],
+          "product": Object {
+            "id": "premium",
+            "price": 394.99,
+            "title": "Premium Ad",
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h2>
+            Ad packages
+          </h2>,
+          Array [
+            <ProductItem
+              onClickAddToCart={[Function]}
+              product={
+                Object {
+                  "id": "classic",
+                  "price": 269.99,
+                  "title": "Classic Ad",
+                }
+              }
+            />,
+            <ProductItem
+              onClickAddToCart={[Function]}
+              product={
+                Object {
+                  "id": "standout",
+                  "price": 322.99,
+                  "title": "Standout Ad",
+                }
+              }
+            />,
+            <ProductItem
+              onClickAddToCart={[Function]}
+              product={
+                Object {
+                  "id": "premium",
+                  "price": 394.99,
+                  "title": "Premium Ad",
+                }
+              }
+            />,
+          ],
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Ad packages",
+          },
+          "ref": null,
+          "rendered": "Ad packages",
+          "type": "h2",
+        },
+        Object {
+          "instance": null,
+          "key": "classic",
+          "nodeType": "function",
+          "props": Object {
+            "onClickAddToCart": [Function],
+            "product": Object {
+              "id": "classic",
+              "price": 269.99,
+              "title": "Classic Ad",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "standout",
+          "nodeType": "function",
+          "props": Object {
+            "onClickAddToCart": [Function],
+            "product": Object {
+              "id": "standout",
+              "price": 322.99,
+              "title": "Standout Ad",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "premium",
+          "nodeType": "function",
+          "props": Object {
+            "onClickAddToCart": [Function],
+            "product": Object {
+              "id": "premium",
+              "price": 394.99,
+              "title": "Premium Ad",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

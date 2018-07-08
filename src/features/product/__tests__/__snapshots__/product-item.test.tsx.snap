@@ -1,0 +1,155 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProductItem> renders correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ProductItem
+    onClickAddToCart={[MockFunction]}
+    product={
+      Object {
+        "price": 269.99,
+        "title": "Classic Ad",
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div>
+          Classic Ad
+        </div>,
+        <div>
+          269.99
+        </div>,
+        <button
+          className="add-cart-btn"
+          onClick={[MockFunction]}
+        >
+          Add to cart
+        </button>,
+      ],
+      "className": "product-item",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Classic Ad",
+        },
+        "ref": null,
+        "rendered": "Classic Ad",
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": 269.99,
+        },
+        "ref": null,
+        "rendered": 269.99,
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Add to cart",
+          "className": "add-cart-btn",
+          "onClick": [MockFunction],
+        },
+        "ref": null,
+        "rendered": "Add to cart",
+        "type": "button",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div>
+            Classic Ad
+          </div>,
+          <div>
+            269.99
+          </div>,
+          <button
+            className="add-cart-btn"
+            onClick={[MockFunction]}
+          >
+            Add to cart
+          </button>,
+        ],
+        "className": "product-item",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Classic Ad",
+          },
+          "ref": null,
+          "rendered": "Classic Ad",
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": 269.99,
+          },
+          "ref": null,
+          "rendered": 269.99,
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Add to cart",
+            "className": "add-cart-btn",
+            "onClick": [MockFunction],
+          },
+          "ref": null,
+          "rendered": "Add to cart",
+          "type": "button",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
