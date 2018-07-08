@@ -1,0 +1,898 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Cart> renders correctly with classic, premium and standout rules 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Cart
+    customer={
+      Object {
+        "discounts": Object {
+          "classic": Object {
+            "trigger": 5,
+          },
+          "premium": Object {
+            "perAd": Object {
+              "minQty": 3,
+              "price": 389.99,
+            },
+          },
+          "rulesDescription": Array [
+            "5 for 4 deal on Classic Ads",
+            "Standout Ad drops to $299.99 per ad",
+            "Premium Ads drop to $389.99 per ad when 3 or more are purchased",
+          ],
+          "standout": Object {
+            "price": 309.99,
+          },
+        },
+      }
+    }
+    products={
+      Array [
+        Object {
+          "id": "classic",
+          "price": 269.99,
+          "priceReduced": 0,
+          "quantity": 2,
+          "title": "Classic Ad",
+        },
+        Object {
+          "id": "standout",
+          "price": 322.99,
+          "priceReduced": 299.99,
+          "quantity": 2,
+          "title": "Standout Ad",
+        },
+        Object {
+          "id": "premium",
+          "price": 394.99,
+          "priceReduced": 0,
+          "quantity": 2,
+          "title": "Premium Ad",
+        },
+      ]
+    }
+    total="1949.94"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h3>
+          Your Cart
+        </h3>,
+        <ul>
+          <li>
+            5 for 4 deal on Classic Ads
+          </li>
+          <li>
+            Standout Ad drops to $299.99 per ad
+          </li>
+          <li>
+            Premium Ads drop to $389.99 per ad when 3 or more are purchased
+          </li>
+        </ul>,
+        <div>
+          <ProductCheckout
+            price={269.99}
+            priceReduced={0}
+            quantity={2}
+            title="Classic Ad"
+          />
+          <ProductCheckout
+            price={322.99}
+            priceReduced={299.99}
+            quantity={2}
+            title="Standout Ad"
+          />
+          <ProductCheckout
+            price={394.99}
+            priceReduced={0}
+            quantity={2}
+            title="Premium Ad"
+          />
+        </div>,
+        <p>
+          Total: $
+          1949.94
+        </p>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Your Cart",
+        },
+        "ref": null,
+        "rendered": "Your Cart",
+        "type": "h3",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <li>
+              5 for 4 deal on Classic Ads
+            </li>,
+            <li>
+              Standout Ad drops to $299.99 per ad
+            </li>,
+            <li>
+              Premium Ads drop to $389.99 per ad when 3 or more are purchased
+            </li>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "0",
+            "nodeType": "host",
+            "props": Object {
+              "children": "5 for 4 deal on Classic Ads",
+            },
+            "ref": null,
+            "rendered": "5 for 4 deal on Classic Ads",
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": "1",
+            "nodeType": "host",
+            "props": Object {
+              "children": "Standout Ad drops to $299.99 per ad",
+            },
+            "ref": null,
+            "rendered": "Standout Ad drops to $299.99 per ad",
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": "2",
+            "nodeType": "host",
+            "props": Object {
+              "children": "Premium Ads drop to $389.99 per ad when 3 or more are purchased",
+            },
+            "ref": null,
+            "rendered": "Premium Ads drop to $389.99 per ad when 3 or more are purchased",
+            "type": "li",
+          },
+        ],
+        "type": "ul",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <ProductCheckout
+              price={269.99}
+              priceReduced={0}
+              quantity={2}
+              title="Classic Ad"
+            />,
+            <ProductCheckout
+              price={322.99}
+              priceReduced={299.99}
+              quantity={2}
+              title="Standout Ad"
+            />,
+            <ProductCheckout
+              price={394.99}
+              priceReduced={0}
+              quantity={2}
+              title="Premium Ad"
+            />,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "classic",
+            "nodeType": "function",
+            "props": Object {
+              "price": 269.99,
+              "priceReduced": 0,
+              "quantity": 2,
+              "title": "Classic Ad",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "standout",
+            "nodeType": "function",
+            "props": Object {
+              "price": 322.99,
+              "priceReduced": 299.99,
+              "quantity": 2,
+              "title": "Standout Ad",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "premium",
+            "nodeType": "function",
+            "props": Object {
+              "price": 394.99,
+              "priceReduced": 0,
+              "quantity": 2,
+              "title": "Premium Ad",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "Total: $",
+            "1949.94",
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          "Total: $",
+          "1949.94",
+        ],
+        "type": "p",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h3>
+            Your Cart
+          </h3>,
+          <ul>
+            <li>
+              5 for 4 deal on Classic Ads
+            </li>
+            <li>
+              Standout Ad drops to $299.99 per ad
+            </li>
+            <li>
+              Premium Ads drop to $389.99 per ad when 3 or more are purchased
+            </li>
+          </ul>,
+          <div>
+            <ProductCheckout
+              price={269.99}
+              priceReduced={0}
+              quantity={2}
+              title="Classic Ad"
+            />
+            <ProductCheckout
+              price={322.99}
+              priceReduced={299.99}
+              quantity={2}
+              title="Standout Ad"
+            />
+            <ProductCheckout
+              price={394.99}
+              priceReduced={0}
+              quantity={2}
+              title="Premium Ad"
+            />
+          </div>,
+          <p>
+            Total: $
+            1949.94
+          </p>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Your Cart",
+          },
+          "ref": null,
+          "rendered": "Your Cart",
+          "type": "h3",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <li>
+                5 for 4 deal on Classic Ads
+              </li>,
+              <li>
+                Standout Ad drops to $299.99 per ad
+              </li>,
+              <li>
+                Premium Ads drop to $389.99 per ad when 3 or more are purchased
+              </li>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "0",
+              "nodeType": "host",
+              "props": Object {
+                "children": "5 for 4 deal on Classic Ads",
+              },
+              "ref": null,
+              "rendered": "5 for 4 deal on Classic Ads",
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": "1",
+              "nodeType": "host",
+              "props": Object {
+                "children": "Standout Ad drops to $299.99 per ad",
+              },
+              "ref": null,
+              "rendered": "Standout Ad drops to $299.99 per ad",
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": "2",
+              "nodeType": "host",
+              "props": Object {
+                "children": "Premium Ads drop to $389.99 per ad when 3 or more are purchased",
+              },
+              "ref": null,
+              "rendered": "Premium Ads drop to $389.99 per ad when 3 or more are purchased",
+              "type": "li",
+            },
+          ],
+          "type": "ul",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <ProductCheckout
+                price={269.99}
+                priceReduced={0}
+                quantity={2}
+                title="Classic Ad"
+              />,
+              <ProductCheckout
+                price={322.99}
+                priceReduced={299.99}
+                quantity={2}
+                title="Standout Ad"
+              />,
+              <ProductCheckout
+                price={394.99}
+                priceReduced={0}
+                quantity={2}
+                title="Premium Ad"
+              />,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "classic",
+              "nodeType": "function",
+              "props": Object {
+                "price": 269.99,
+                "priceReduced": 0,
+                "quantity": 2,
+                "title": "Classic Ad",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "standout",
+              "nodeType": "function",
+              "props": Object {
+                "price": 322.99,
+                "priceReduced": 299.99,
+                "quantity": 2,
+                "title": "Standout Ad",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "premium",
+              "nodeType": "function",
+              "props": Object {
+                "price": 394.99,
+                "priceReduced": 0,
+                "quantity": 2,
+                "title": "Premium Ad",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "Total: $",
+              "1949.94",
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            "Total: $",
+            "1949.94",
+          ],
+          "type": "p",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`<Cart> renders correctly with standout rules 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Cart
+    customer={
+      Object {
+        "discounts": Object {
+          "rulesDescription": Array [
+            "Standout Ad drops to $299.99 per ad",
+          ],
+          "standout": Object {
+            "price": 299.99,
+          },
+        },
+      }
+    }
+    products={
+      Array [
+        Object {
+          "id": "classic",
+          "price": 269.99,
+          "priceReduced": 0,
+          "quantity": 2,
+          "title": "Classic Ad",
+        },
+        Object {
+          "id": "standout",
+          "price": 322.99,
+          "priceReduced": 299.99,
+          "quantity": 2,
+          "title": "Standout Ad",
+        },
+        Object {
+          "id": "premium",
+          "price": 394.99,
+          "priceReduced": 0,
+          "quantity": 2,
+          "title": "Premium Ad",
+        },
+      ]
+    }
+    total="1929.94"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h3>
+          Your Cart
+        </h3>,
+        <ul>
+          <li>
+            Standout Ad drops to $299.99 per ad
+          </li>
+        </ul>,
+        <div>
+          <ProductCheckout
+            price={269.99}
+            priceReduced={0}
+            quantity={2}
+            title="Classic Ad"
+          />
+          <ProductCheckout
+            price={322.99}
+            priceReduced={299.99}
+            quantity={2}
+            title="Standout Ad"
+          />
+          <ProductCheckout
+            price={394.99}
+            priceReduced={0}
+            quantity={2}
+            title="Premium Ad"
+          />
+        </div>,
+        <p>
+          Total: $
+          1929.94
+        </p>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Your Cart",
+        },
+        "ref": null,
+        "rendered": "Your Cart",
+        "type": "h3",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <li>
+              Standout Ad drops to $299.99 per ad
+            </li>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "0",
+            "nodeType": "host",
+            "props": Object {
+              "children": "Standout Ad drops to $299.99 per ad",
+            },
+            "ref": null,
+            "rendered": "Standout Ad drops to $299.99 per ad",
+            "type": "li",
+          },
+        ],
+        "type": "ul",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <ProductCheckout
+              price={269.99}
+              priceReduced={0}
+              quantity={2}
+              title="Classic Ad"
+            />,
+            <ProductCheckout
+              price={322.99}
+              priceReduced={299.99}
+              quantity={2}
+              title="Standout Ad"
+            />,
+            <ProductCheckout
+              price={394.99}
+              priceReduced={0}
+              quantity={2}
+              title="Premium Ad"
+            />,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "classic",
+            "nodeType": "function",
+            "props": Object {
+              "price": 269.99,
+              "priceReduced": 0,
+              "quantity": 2,
+              "title": "Classic Ad",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "standout",
+            "nodeType": "function",
+            "props": Object {
+              "price": 322.99,
+              "priceReduced": 299.99,
+              "quantity": 2,
+              "title": "Standout Ad",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "premium",
+            "nodeType": "function",
+            "props": Object {
+              "price": 394.99,
+              "priceReduced": 0,
+              "quantity": 2,
+              "title": "Premium Ad",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "Total: $",
+            "1929.94",
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          "Total: $",
+          "1929.94",
+        ],
+        "type": "p",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h3>
+            Your Cart
+          </h3>,
+          <ul>
+            <li>
+              Standout Ad drops to $299.99 per ad
+            </li>
+          </ul>,
+          <div>
+            <ProductCheckout
+              price={269.99}
+              priceReduced={0}
+              quantity={2}
+              title="Classic Ad"
+            />
+            <ProductCheckout
+              price={322.99}
+              priceReduced={299.99}
+              quantity={2}
+              title="Standout Ad"
+            />
+            <ProductCheckout
+              price={394.99}
+              priceReduced={0}
+              quantity={2}
+              title="Premium Ad"
+            />
+          </div>,
+          <p>
+            Total: $
+            1929.94
+          </p>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Your Cart",
+          },
+          "ref": null,
+          "rendered": "Your Cart",
+          "type": "h3",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <li>
+                Standout Ad drops to $299.99 per ad
+              </li>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "0",
+              "nodeType": "host",
+              "props": Object {
+                "children": "Standout Ad drops to $299.99 per ad",
+              },
+              "ref": null,
+              "rendered": "Standout Ad drops to $299.99 per ad",
+              "type": "li",
+            },
+          ],
+          "type": "ul",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <ProductCheckout
+                price={269.99}
+                priceReduced={0}
+                quantity={2}
+                title="Classic Ad"
+              />,
+              <ProductCheckout
+                price={322.99}
+                priceReduced={299.99}
+                quantity={2}
+                title="Standout Ad"
+              />,
+              <ProductCheckout
+                price={394.99}
+                priceReduced={0}
+                quantity={2}
+                title="Premium Ad"
+              />,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "classic",
+              "nodeType": "function",
+              "props": Object {
+                "price": 269.99,
+                "priceReduced": 0,
+                "quantity": 2,
+                "title": "Classic Ad",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "standout",
+              "nodeType": "function",
+              "props": Object {
+                "price": 322.99,
+                "priceReduced": 299.99,
+                "quantity": 2,
+                "title": "Standout Ad",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "premium",
+              "nodeType": "function",
+              "props": Object {
+                "price": 394.99,
+                "priceReduced": 0,
+                "quantity": 2,
+                "title": "Premium Ad",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "Total: $",
+              "1929.94",
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            "Total: $",
+            "1929.94",
+          ],
+          "type": "p",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
