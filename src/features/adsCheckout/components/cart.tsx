@@ -15,6 +15,7 @@ const Cart = ({products, total, customer}: Props) => {
   const nodes = hasProducts ? (
     products.map(product => (
       <ProductCheckout
+        id={product.id}
         title={product.title}
         price={product.price}
         quantity={product.quantity}

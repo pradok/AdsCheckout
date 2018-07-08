@@ -5,7 +5,7 @@ ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <ProductCheckout
-    id={1}
+    id="classic"
     price={394.99}
     priceReduced={4}
     quantity={379.99}
@@ -34,6 +34,7 @@ ShallowWrapper {
         "",
         "",
       ],
+      "className": "classic",
     },
     "ref": null,
     "rendered": Array [
@@ -66,6 +67,7 @@ ShallowWrapper {
           "",
           "",
         ],
+        "className": "classic",
       },
       "ref": null,
       "rendered": Array [

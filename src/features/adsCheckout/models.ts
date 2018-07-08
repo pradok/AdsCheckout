@@ -1,11 +1,9 @@
 import {customerModels} from '../customer';
+import {productModels} from '../product';
 
-export type Product = {
-  id?: number | string;
-  price: number;
+export type Product = productModels.Product & {
   quantity: number;
   priceReduced: number;
-  title: string;
 };
 
 export type Discount = {

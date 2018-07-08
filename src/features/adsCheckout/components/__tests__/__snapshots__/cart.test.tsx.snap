@@ -84,18 +84,21 @@ ShallowWrapper {
         </ul>,
         <div>
           <ProductCheckout
+            id="classic"
             price={269.99}
             priceReduced={0}
             quantity={2}
             title="Classic Ad"
           />
           <ProductCheckout
+            id="standout"
             price={322.99}
             priceReduced={299.99}
             quantity={2}
             title="Standout Ad"
           />
           <ProductCheckout
+            id="premium"
             price={394.99}
             priceReduced={0}
             quantity={2}
@@ -183,18 +186,21 @@ ShallowWrapper {
         "props": Object {
           "children": Array [
             <ProductCheckout
+              id="classic"
               price={269.99}
               priceReduced={0}
               quantity={2}
               title="Classic Ad"
             />,
             <ProductCheckout
+              id="standout"
               price={322.99}
               priceReduced={299.99}
               quantity={2}
               title="Standout Ad"
             />,
             <ProductCheckout
+              id="premium"
               price={394.99}
               priceReduced={0}
               quantity={2}
@@ -209,6 +215,7 @@ ShallowWrapper {
             "key": "classic",
             "nodeType": "function",
             "props": Object {
+              "id": "classic",
               "price": 269.99,
               "priceReduced": 0,
               "quantity": 2,
@@ -223,6 +230,7 @@ ShallowWrapper {
             "key": "standout",
             "nodeType": "function",
             "props": Object {
+              "id": "standout",
               "price": 322.99,
               "priceReduced": 299.99,
               "quantity": 2,
@@ -237,6 +245,7 @@ ShallowWrapper {
             "key": "premium",
             "nodeType": "function",
             "props": Object {
+              "id": "premium",
               "price": 394.99,
               "priceReduced": 0,
               "quantity": 2,
@@ -292,18 +301,21 @@ ShallowWrapper {
           </ul>,
           <div>
             <ProductCheckout
+              id="classic"
               price={269.99}
               priceReduced={0}
               quantity={2}
               title="Classic Ad"
             />
             <ProductCheckout
+              id="standout"
               price={322.99}
               priceReduced={299.99}
               quantity={2}
               title="Standout Ad"
             />
             <ProductCheckout
+              id="premium"
               price={394.99}
               priceReduced={0}
               quantity={2}
@@ -391,18 +403,21 @@ ShallowWrapper {
           "props": Object {
             "children": Array [
               <ProductCheckout
+                id="classic"
                 price={269.99}
                 priceReduced={0}
                 quantity={2}
                 title="Classic Ad"
               />,
               <ProductCheckout
+                id="standout"
                 price={322.99}
                 priceReduced={299.99}
                 quantity={2}
                 title="Standout Ad"
               />,
               <ProductCheckout
+                id="premium"
                 price={394.99}
                 priceReduced={0}
                 quantity={2}
@@ -417,6 +432,7 @@ ShallowWrapper {
               "key": "classic",
               "nodeType": "function",
               "props": Object {
+                "id": "classic",
                 "price": 269.99,
                 "priceReduced": 0,
                 "quantity": 2,
@@ -431,6 +447,7 @@ ShallowWrapper {
               "key": "standout",
               "nodeType": "function",
               "props": Object {
+                "id": "standout",
                 "price": 322.99,
                 "priceReduced": 299.99,
                 "quantity": 2,
@@ -445,6 +462,7 @@ ShallowWrapper {
               "key": "premium",
               "nodeType": "function",
               "props": Object {
+                "id": "premium",
                 "price": 394.99,
                 "priceReduced": 0,
                 "quantity": 2,
@@ -555,18 +573,21 @@ ShallowWrapper {
         </ul>,
         <div>
           <ProductCheckout
+            id="classic"
             price={269.99}
             priceReduced={0}
             quantity={2}
             title="Classic Ad"
           />
           <ProductCheckout
+            id="standout"
             price={322.99}
             priceReduced={299.99}
             quantity={2}
             title="Standout Ad"
           />
           <ProductCheckout
+            id="premium"
             price={394.99}
             priceReduced={0}
             quantity={2}
@@ -626,18 +647,21 @@ ShallowWrapper {
         "props": Object {
           "children": Array [
             <ProductCheckout
+              id="classic"
               price={269.99}
               priceReduced={0}
               quantity={2}
               title="Classic Ad"
             />,
             <ProductCheckout
+              id="standout"
               price={322.99}
               priceReduced={299.99}
               quantity={2}
               title="Standout Ad"
             />,
             <ProductCheckout
+              id="premium"
               price={394.99}
               priceReduced={0}
               quantity={2}
@@ -652,6 +676,7 @@ ShallowWrapper {
             "key": "classic",
             "nodeType": "function",
             "props": Object {
+              "id": "classic",
               "price": 269.99,
               "priceReduced": 0,
               "quantity": 2,
@@ -666,6 +691,7 @@ ShallowWrapper {
             "key": "standout",
             "nodeType": "function",
             "props": Object {
+              "id": "standout",
               "price": 322.99,
               "priceReduced": 299.99,
               "quantity": 2,
@@ -680,6 +706,7 @@ ShallowWrapper {
             "key": "premium",
             "nodeType": "function",
             "props": Object {
+              "id": "premium",
               "price": 394.99,
               "priceReduced": 0,
               "quantity": 2,
@@ -729,18 +756,21 @@ ShallowWrapper {
           </ul>,
           <div>
             <ProductCheckout
+              id="classic"
               price={269.99}
               priceReduced={0}
               quantity={2}
               title="Classic Ad"
             />
             <ProductCheckout
+              id="standout"
               price={322.99}
               priceReduced={299.99}
               quantity={2}
               title="Standout Ad"
             />
             <ProductCheckout
+              id="premium"
               price={394.99}
               priceReduced={0}
               quantity={2}
@@ -800,18 +830,21 @@ ShallowWrapper {
           "props": Object {
             "children": Array [
               <ProductCheckout
+                id="classic"
                 price={269.99}
                 priceReduced={0}
                 quantity={2}
                 title="Classic Ad"
               />,
               <ProductCheckout
+                id="standout"
                 price={322.99}
                 priceReduced={299.99}
                 quantity={2}
                 title="Standout Ad"
               />,
               <ProductCheckout
+                id="premium"
                 price={394.99}
                 priceReduced={0}
                 quantity={2}
@@ -826,6 +859,7 @@ ShallowWrapper {
               "key": "classic",
               "nodeType": "function",
               "props": Object {
+                "id": "classic",
                 "price": 269.99,
                 "priceReduced": 0,
                 "quantity": 2,
@@ -840,6 +874,7 @@ ShallowWrapper {
               "key": "standout",
               "nodeType": "function",
               "props": Object {
+                "id": "standout",
                 "price": 322.99,
                 "priceReduced": 299.99,
                 "quantity": 2,
@@ -854,6 +889,7 @@ ShallowWrapper {
               "key": "premium",
               "nodeType": "function",
               "props": Object {
+                "id": "premium",
                 "price": 394.99,
                 "priceReduced": 0,
                 "quantity": 2,
