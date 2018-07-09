@@ -3,3 +3,13 @@ export type Product = {
   title: string;
   price: number;
 };
+
+export interface ProductCollectionState {
+  collection: Product[];
+  isLoading: boolean;
+  isFetched: boolean;
+}
+export interface ProductAction {
+  type: string;
+  payload?: Product[];
+}
