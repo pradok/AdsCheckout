@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`features -> product -> actions fetchProducts 1`] = `
+Object {
+  "type": "PRODUCTS/COLLECTION_FETCH",
+}
+`;
+
+exports[`features -> product -> actions fetchProducts 2`] = `
+Object {
+  "payload": Array [
+    Object {
+      "id": "classic",
+      "price": 269.99,
+      "title": "Classic Ad",
+    },
+    Object {
+      "id": "standout",
+      "price": 322.99,
+      "title": "Standout Ad",
+    },
+    Object {
+      "id": "premium",
+      "price": 394.99,
+      "title": "Premium Ad",
+    },
+  ],
+  "type": "PRODUCTS/COLLECTION_FETCH_SUCCESS",
+}
+`;
+
+exports[`features -> product -> actions fetchProducts 3`] = `
+Object {
+  "payload": Object {
+    "message": "Error fetching products",
+    "name": "Error Name",
+  },
+  "type": "PRODUCTS/COLLECTION_FETCH_ERROR",
+}
+`;

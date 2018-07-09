@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`product reducers Actioon PRODUCTS/COLLECTION_FETCH should return state 1`] = `
+Object {
+  "collection": Array [],
+  "isFetched": false,
+  "isLoading": true,
+}
+`;
+
+exports[`product reducers Actioon PRODUCTS/COLLECTION_FETCH_ERROR should return state 1`] = `
+Object {
+  "collection": Array [],
+  "isFetched": false,
+  "isLoading": false,
+}
+`;
+
+exports[`product reducers Actioon PRODUCTS/COLLECTION_FETCH_SUCCESS should return a state with list of ad products 1`] = `
+Object {
+  "collection": Array [
+    Object {
+      "id": "classic",
+      "price": 269.99,
+      "title": "Classic Ad",
+    },
+    Object {
+      "id": "standout",
+      "price": 322.99,
+      "title": "Standout Ad",
+    },
+  ],
+  "isFetched": true,
+  "isLoading": false,
+}
+`;
