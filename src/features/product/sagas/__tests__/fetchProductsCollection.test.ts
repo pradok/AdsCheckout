@@ -1,6 +1,6 @@
 import { testSaga } from 'redux-saga-test-plan';
 import { Product } from '../../models';
-import {fetchProducts} from '../../services';
+import {fetchProducts} from '../../api';
 import {actionTypes as at} from '../../constants';
 import {fetchProductsCollection} from '../fetchProductsCollection';
 
@@ -27,7 +27,7 @@ describe('Saga fetchProductsCollection', () => {
       type: at.PRODUCTS_COLLECTION_FETCH_SUCCESS,
       payload: products,
     };
-    it('just works!', () => {
+    it('fetchProductsCollection works!', () => {
       testSaga(fetchProductsCollection)
         .next()
         .call(fetchProducts)

@@ -20,7 +20,7 @@
     "no-namespace": false,
     "no-null-keyword": false,
     "no-require-imports": false,
-    "no-submodule-imports": [true, "@src", "rxjs", "redux-saga"],
+    "no-submodule-imports": [true, "@src", "rxjs", "redux-saga", "history"],
     "no-this-assignment": [true, { "allow-destructuring": true }],
     "no-trailing-whitespace": true,
     "no-unused-variable": [true, "react"],

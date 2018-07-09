@@ -1,12 +1,12 @@
 import { call, put } from 'redux-saga/effects';
 
-import { fetchProducts } from '../api';
+import { fetchDiscounts } from '../api';
 import { fetchSuccess, fetchError } from '../actions';
-import { Product } from '../models';
+import { CustomerDiscounts } from '../models';
 
-export function* fetchProductsCollection() {
+export function* fetchCustomerDiscounts() {
   try {
-    const result: Product[] = yield call(fetchProducts);
+    const result: CustomerDiscounts = yield call(fetchDiscounts);
     yield put(fetchSuccess(result));
   } catch (error) {
     yield put(fetchError(error));
