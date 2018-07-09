@@ -6,6 +6,7 @@ import ProductList from '../components/product-list';
 import {Product} from '../models';
 import {RootState} from '../../../store';
 import {fetchProducts} from '../actions';
+import {fetchCustomerDiscounts} from '../../customer';
 import {RouteComponentProps} from 'react-router-dom';
 
 export interface OwnProps {
@@ -20,6 +21,7 @@ interface StateProps {
 
 interface DispatchProps {
   fetchProductCollection: () => void;
+  fetchCustomerDiscounts: () => void;
 }
 
 type Props = StateProps & DispatchProps & OwnProps;
@@ -34,14 +36,14 @@ class ProductContainer extends React.Component<Props, State> {
 
   componentDidMount() {
     this.props.fetchProductCollection();
-    console.log(this);
+    this.props.fetchCustomerDiscounts();
   }
 
   render() {
-    const {routeProps} = this.props;
+    const {routeProps: {match}} = this.props;
     return (
       <div>
-        Products Container {routeProps.match.params.customer}
+        Products Container {match.params.customer}
         <ProductList products={this.props.products} addToCart={this.addToCartHandler}/>
       </div>
     );
@@ -59,6 +61,7 @@ const mapStateToProps = (state: RootState) => {
 const mapDispatchToProps = (dispatch: Dispatch) => {
   return {
     fetchProductCollection: () => dispatch(fetchProducts()),
+    fetchCustomerDiscounts: () => dispatch(fetchCustomerDiscounts()),
   };
 };
 
