@@ -5,26 +5,24 @@ ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Cart
-    customer={
+    discounts={
       Object {
-        "discounts": Object {
-          "classic": Object {
-            "trigger": 5,
+        "classic": Object {
+          "trigger": 5,
+        },
+        "premium": Object {
+          "perAd": Object {
+            "minQty": 3,
+            "price": 389.99,
           },
-          "premium": Object {
-            "perAd": Object {
-              "minQty": 3,
-              "price": 389.99,
-            },
-          },
-          "rulesDescription": Array [
-            "5 for 4 deal on Classic Ads",
-            "Standout Ad drops to $299.99 per ad",
-            "Premium Ads drop to $389.99 per ad when 3 or more are purchased",
-          ],
-          "standout": Object {
-            "price": 309.99,
-          },
+        },
+        "rulesDescription": Array [
+          "5 for 4 deal on Classic Ads",
+          "Standout Ad drops to $299.99 per ad",
+          "Premium Ads drop to $389.99 per ad when 3 or more are purchased",
+        ],
+        "standout": Object {
+          "price": 309.99,
         },
       }
     }
@@ -511,15 +509,13 @@ ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Cart
-    customer={
+    discounts={
       Object {
-        "discounts": Object {
-          "rulesDescription": Array [
-            "Standout Ad drops to $299.99 per ad",
-          ],
-          "standout": Object {
-            "price": 299.99,
-          },
+        "rulesDescription": Array [
+          "Standout Ad drops to $299.99 per ad",
+        ],
+        "standout": Object {
+          "price": 299.99,
         },
       }
     }

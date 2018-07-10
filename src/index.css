@@ -1,0 +1,13 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,900);
+
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}

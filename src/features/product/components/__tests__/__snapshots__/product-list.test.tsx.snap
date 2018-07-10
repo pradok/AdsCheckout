@@ -42,7 +42,7 @@ ShallowWrapper {
         <h2>
           Ad packages
         </h2>,
-        Array [
+        <styled.div>
           <ProductItem
             onClickAddToCart={[Function]}
             product={
@@ -52,7 +52,7 @@ ShallowWrapper {
                 "title": "Classic Ad",
               }
             }
-          />,
+          />
           <ProductItem
             onClickAddToCart={[Function]}
             product={
@@ -62,7 +62,7 @@ ShallowWrapper {
                 "title": "Standout Ad",
               }
             }
-          />,
+          />
           <ProductItem
             onClickAddToCart={[Function]}
             product={
@@ -72,8 +72,8 @@ ShallowWrapper {
                 "title": "Premium Ad",
               }
             }
-          />,
-        ],
+          />
+        </styled.div>,
       ],
     },
     "ref": null,
@@ -91,66 +91,10 @@ ShallowWrapper {
       },
       Object {
         "instance": null,
-        "key": "classic",
-        "nodeType": "function",
+        "key": undefined,
+        "nodeType": "class",
         "props": Object {
-          "onClickAddToCart": [Function],
-          "product": Object {
-            "id": "classic",
-            "price": 269.99,
-            "title": "Classic Ad",
-          },
-        },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": "standout",
-        "nodeType": "function",
-        "props": Object {
-          "onClickAddToCart": [Function],
-          "product": Object {
-            "id": "standout",
-            "price": 322.99,
-            "title": "Standout Ad",
-          },
-        },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": "premium",
-        "nodeType": "function",
-        "props": Object {
-          "onClickAddToCart": [Function],
-          "product": Object {
-            "id": "premium",
-            "price": 394.99,
-            "title": "Premium Ad",
-          },
-        },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-    ],
-    "type": "div",
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "children": Array [
-          <h2>
-            Ad packages
-          </h2>,
-          Array [
+          "children": Array [
             <ProductItem
               onClickAddToCart={[Function]}
               product={
@@ -182,6 +126,105 @@ ShallowWrapper {
               }
             />,
           ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "classic",
+            "nodeType": "function",
+            "props": Object {
+              "onClickAddToCart": [Function],
+              "product": Object {
+                "id": "classic",
+                "price": 269.99,
+                "title": "Classic Ad",
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "standout",
+            "nodeType": "function",
+            "props": Object {
+              "onClickAddToCart": [Function],
+              "product": Object {
+                "id": "standout",
+                "price": 322.99,
+                "title": "Standout Ad",
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "premium",
+            "nodeType": "function",
+            "props": Object {
+              "onClickAddToCart": [Function],
+              "product": Object {
+                "id": "premium",
+                "price": 394.99,
+                "title": "Premium Ad",
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h2>
+            Ad packages
+          </h2>,
+          <styled.div>
+            <ProductItem
+              onClickAddToCart={[Function]}
+              product={
+                Object {
+                  "id": "classic",
+                  "price": 269.99,
+                  "title": "Classic Ad",
+                }
+              }
+            />
+            <ProductItem
+              onClickAddToCart={[Function]}
+              product={
+                Object {
+                  "id": "standout",
+                  "price": 322.99,
+                  "title": "Standout Ad",
+                }
+              }
+            />
+            <ProductItem
+              onClickAddToCart={[Function]}
+              product={
+                Object {
+                  "id": "premium",
+                  "price": 394.99,
+                  "title": "Premium Ad",
+                }
+              }
+            />
+          </styled.div>,
         ],
       },
       "ref": null,
@@ -199,50 +242,93 @@ ShallowWrapper {
         },
         Object {
           "instance": null,
-          "key": "classic",
-          "nodeType": "function",
+          "key": undefined,
+          "nodeType": "class",
           "props": Object {
-            "onClickAddToCart": [Function],
-            "product": Object {
-              "id": "classic",
-              "price": 269.99,
-              "title": "Classic Ad",
-            },
+            "children": Array [
+              <ProductItem
+                onClickAddToCart={[Function]}
+                product={
+                  Object {
+                    "id": "classic",
+                    "price": 269.99,
+                    "title": "Classic Ad",
+                  }
+                }
+              />,
+              <ProductItem
+                onClickAddToCart={[Function]}
+                product={
+                  Object {
+                    "id": "standout",
+                    "price": 322.99,
+                    "title": "Standout Ad",
+                  }
+                }
+              />,
+              <ProductItem
+                onClickAddToCart={[Function]}
+                product={
+                  Object {
+                    "id": "premium",
+                    "price": 394.99,
+                    "title": "Premium Ad",
+                  }
+                }
+              />,
+            ],
           },
           "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": "standout",
-          "nodeType": "function",
-          "props": Object {
-            "onClickAddToCart": [Function],
-            "product": Object {
-              "id": "standout",
-              "price": 322.99,
-              "title": "Standout Ad",
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "classic",
+              "nodeType": "function",
+              "props": Object {
+                "onClickAddToCart": [Function],
+                "product": Object {
+                  "id": "classic",
+                  "price": 269.99,
+                  "title": "Classic Ad",
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
             },
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": "premium",
-          "nodeType": "function",
-          "props": Object {
-            "onClickAddToCart": [Function],
-            "product": Object {
-              "id": "premium",
-              "price": 394.99,
-              "title": "Premium Ad",
+            Object {
+              "instance": null,
+              "key": "standout",
+              "nodeType": "function",
+              "props": Object {
+                "onClickAddToCart": [Function],
+                "product": Object {
+                  "id": "standout",
+                  "price": 322.99,
+                  "title": "Standout Ad",
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
             },
-          },
-          "ref": null,
-          "rendered": null,
+            Object {
+              "instance": null,
+              "key": "premium",
+              "nodeType": "function",
+              "props": Object {
+                "onClickAddToCart": [Function],
+                "product": Object {
+                  "id": "premium",
+                  "price": 394.99,
+                  "title": "Premium Ad",
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
           "type": [Function],
         },
       ],

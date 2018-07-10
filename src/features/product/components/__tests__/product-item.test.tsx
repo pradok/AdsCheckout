@@ -22,6 +22,6 @@ it('<ProductItem> Add to cart button click', () => {
   const component = shallow(
     <ProductItem {...productItem} />
   );
-  component.find('button').simulate('click');
+  component.find('.add-cart-btn').simulate('click');
   expect(productItem.onClickAddToCart).toHaveBeenCalled();
 });

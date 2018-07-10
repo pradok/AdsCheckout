@@ -23,21 +23,22 @@ ShallowWrapper {
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "host",
+    "nodeType": "class",
     "props": Object {
       "children": Array [
-        <div>
+        <h3>
           Classic Ad
-        </div>,
-        <div>
+        </h3>,
+        <h4>
+          $
           269.99
-        </div>,
-        <button
+        </h4>,
+        <styled.button
           className="add-cart-btn"
           onClick={[MockFunction]}
         >
           Add to cart
-        </button>,
+        </styled.button>,
       ],
       "className": "product-item",
     },
@@ -52,23 +53,29 @@ ShallowWrapper {
         },
         "ref": null,
         "rendered": "Classic Ad",
-        "type": "div",
+        "type": "h3",
       },
       Object {
         "instance": null,
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": 269.99,
+          "children": Array [
+            "$",
+            269.99,
+          ],
         },
         "ref": null,
-        "rendered": 269.99,
-        "type": "div",
+        "rendered": Array [
+          "$",
+          269.99,
+        ],
+        "type": "h4",
       },
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "host",
+        "nodeType": "class",
         "props": Object {
           "children": "Add to cart",
           "className": "add-cart-btn",
@@ -76,30 +83,31 @@ ShallowWrapper {
         },
         "ref": null,
         "rendered": "Add to cart",
-        "type": "button",
+        "type": [Function],
       },
     ],
-    "type": "div",
+    "type": [Function],
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "host",
+      "nodeType": "class",
       "props": Object {
         "children": Array [
-          <div>
+          <h3>
             Classic Ad
-          </div>,
-          <div>
+          </h3>,
+          <h4>
+            $
             269.99
-          </div>,
-          <button
+          </h4>,
+          <styled.button
             className="add-cart-btn"
             onClick={[MockFunction]}
           >
             Add to cart
-          </button>,
+          </styled.button>,
         ],
         "className": "product-item",
       },
@@ -114,23 +122,29 @@ ShallowWrapper {
           },
           "ref": null,
           "rendered": "Classic Ad",
-          "type": "div",
+          "type": "h3",
         },
         Object {
           "instance": null,
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": 269.99,
+            "children": Array [
+              "$",
+              269.99,
+            ],
           },
           "ref": null,
-          "rendered": 269.99,
-          "type": "div",
+          "rendered": Array [
+            "$",
+            269.99,
+          ],
+          "type": "h4",
         },
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "host",
+          "nodeType": "class",
           "props": Object {
             "children": "Add to cart",
             "className": "add-cart-btn",
@@ -138,10 +152,10 @@ ShallowWrapper {
           },
           "ref": null,
           "rendered": "Add to cart",
-          "type": "button",
+          "type": [Function],
         },
       ],
-      "type": "div",
+      "type": [Function],
     },
   ],
   Symbol(enzyme.__options__): Object {

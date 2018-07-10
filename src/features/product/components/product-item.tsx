@@ -1,5 +1,7 @@
 import * as React from 'react';
 
+import {StyledProductItem, StyledButton} from '../../../common/styled';
+
 export interface Props {
   product: {
     title: string;
@@ -9,13 +11,13 @@ export interface Props {
 }
 
 const ProductItem = ({product, onClickAddToCart}: Props) => (
-  <div className={`product-item`}>
-    <div>{product.title}</div>
-    <div>{product.price}</div>
-    <button className="add-cart-btn" onClick={onClickAddToCart}>
+  <StyledProductItem className={`product-item`}>
+    <h3>{product.title}</h3>
+    <h4>${product.price}</h4>
+    <StyledButton className="add-cart-btn" onClick={onClickAddToCart}>
       {'Add to cart'}
-    </button>
-  </div>
+    </StyledButton>
+  </StyledProductItem>
 );
 
 export default ProductItem;
