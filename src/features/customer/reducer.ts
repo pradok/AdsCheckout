@@ -2,7 +2,6 @@ import {actionTypes as at} from './constants';
 import {CustomerDiscountAction, CustomerDiscountsState} from './models';
 
 export const initialState: CustomerDiscountsState = {
-  discounts: false,
   isLoading: false,
   isFetched: false,
 };

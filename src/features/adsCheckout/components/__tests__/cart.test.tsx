@@ -37,17 +37,13 @@ const discountsStandout: Discount = {
   },
 };
 
-const customerStandOut = {
-  discounts: discountsStandout,
-};
-
 const total = '1929.94';
 
 it('<Cart> renders correctly with standout rules', () => {
   const component = shallow(
     <Cart
       products={products}
-      customer={customerStandOut}
+      discounts={discountsStandout}
       total={total}
     />
   );
@@ -71,17 +67,13 @@ const discountsAll: Discount = {
   },
 };
 
-const customerAllDiscounts = {
-  discounts: discountsAll,
-};
-
 const total2 = '1949.94';
 
 it('<Cart> renders correctly with classic, premium and standout rules', () => {
   const component = shallow(
     <Cart
       products={products}
-      customer={customerAllDiscounts}
+      discounts={discountsAll}
       total={total2}
     />
   );

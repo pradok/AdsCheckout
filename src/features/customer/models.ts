@@ -1,43 +1,36 @@
-export type DiscountPremium = {
+export interface DiscountPremium {
   perAd: {
     minQty: number;
     price: number;
   };
-};
+}
 
-export type DiscountStandOut = {
+export interface DiscountStandOut {
   price: number;
-};
+}
 
-export type DiscountClassic = {
+export interface DiscountClassic {
   trigger: number;
-};
+}
 
 export type RulesDesc = string[];
 
+export type DiscountRules = {
+  rulesDescription: RulesDesc;
+  classic?: DiscountClassic;
+  standout?: DiscountStandOut;
+  premium?: DiscountPremium;
+};
+
 export type CustomerDiscounts = {
-  unilever: {
-    rulesDescription: RulesDesc;
-    classic: DiscountClassic;
-  };
-  apple: {
-    rulesDescription: RulesDesc;
-    standout: DiscountStandOut;
-  };
-  nike: {
-    rulesDescription: RulesDesc;
-    premium: DiscountPremium;
-  };
-  ford: {
-    rulesDescription: RulesDesc;
-    classic: DiscountClassic;
-    standout: DiscountStandOut;
-    premium: DiscountPremium;
-  };
+  unilever: DiscountRules;
+  apple: DiscountRules;
+  nike: DiscountRules;
+  ford: DiscountRules;
 };
 
 export interface CustomerDiscountsState {
-  discounts: CustomerDiscounts | boolean;
+  discounts?: CustomerDiscounts;
   isLoading: boolean;
   isFetched: boolean;
 }
@@ -46,3 +39,5 @@ export type CustomerDiscountAction = {
   type: string;
   payload?: CustomerDiscounts;
 };
+
+export type CustomerId = 'unilever' | 'apple' | 'nike' | 'ford';
