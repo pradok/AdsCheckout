@@ -25,7 +25,7 @@ const StyledProductItem = styled.div`
     }
     ul {
       list-style-type: none;
-      color: #796583;
+      color: #bfabca;
       font-size: 0.75em;
       list-style-type: none;
       padding: 0;
