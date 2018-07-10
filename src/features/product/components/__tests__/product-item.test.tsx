@@ -8,6 +8,7 @@ const productItem: Props = {
     price: 269.99,
     title: 'Classic Ad',
   },
+  promo: 'Get 3 for 2 deal on Classic Ads',
   onClickAddToCart: jest.fn(),
 };
 

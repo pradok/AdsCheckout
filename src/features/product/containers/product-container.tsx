@@ -1,7 +1,6 @@
 import * as React from 'react';
 import {connect} from 'react-redux';
 import { Dispatch } from 'redux';
-import {RouteComponentProps} from 'react-router-dom';
 
 import {checkoutActions} from '../../adsCheckout';
 
@@ -9,16 +8,17 @@ import ProductList from '../components/product-list';
 import {Product} from '../models';
 import {RootState} from '../../../store';
 import {fetchProducts} from '../actions';
-import {fetchCustomerDiscounts} from '../../customer';
+import {customerModels, fetchCustomerDiscounts} from '../../customer';
 
 export interface OwnProps {
-  routeProps: RouteComponentProps<{ customer: string }>;
+  customerId: customerModels.CustomerId;
 }
 
 interface StateProps {
   products: Product[];
   isLoading: boolean;
   isFetched: boolean;
+  rulesDesc: customerModels.RulesDesc;
 }
 
 interface DispatchProps {
@@ -43,21 +43,27 @@ class ProductContainer extends React.Component<Props, State> {
   }
 
   render() {
-    const {routeProps: {match}} = this.props;
+    const {customerId, rulesDesc} = this.props;
     return (
       <div>
-        Products Container {match.params.customer}
-        <ProductList products={this.props.products} addToCart={this.addToCartHandler}/>
+        {customerId}
+        <ProductList products={this.props.products} addToCart={this.addToCartHandler} rulesDesc={rulesDesc}/>
       </div>
     );
   }
 }
 
-const mapStateToProps = (state: RootState) => {
+const mapStateToProps = (state: RootState, props: OwnProps) => {
+  const { discounts } = state.customer;
+  let rules: customerModels.RulesDesc = [];
+  if (discounts !== undefined) {
+    rules = discounts[props.customerId].rulesDescription;
+  }
   return {
     products: state.products.collection,
     isLoading: state.products.isLoading,
     isFetched: state.products.isFetched,
+    rulesDesc: rules,
   };
 };
 
@@ -69,7 +75,7 @@ const mapDispatchToProps = (dispatch: Dispatch) => {
   };
 };
 
-export default connect<StateProps, DispatchProps, {routeProps: RouteComponentProps<{ customer: string }>}>(
+export default connect<StateProps, DispatchProps, {customerId: customerModels.CustomerId}>(
   mapStateToProps,
   mapDispatchToProps
 )(ProductContainer);

@@ -2,7 +2,8 @@
     "customers": {
     "unilever": {
       "rulesDescription": [
-        "Get 3 for 2 deal on Classic Ads"
+        "Get 3 for 2 deal on Classic Ads",
+        ""
       ],
       "classic": {
         "trigger": 3
@@ -10,7 +11,9 @@
     },
     "apple": {
       "rulesDescription": [
-        "Standout Ad drops to $299.99 per ad"
+        "",
+        "Standout Ad drops to $299.99 per ad",
+        ""
       ],
       "standout": {
         "price": 299.99
@@ -18,6 +21,8 @@
     },
     "nike": {
       "rulesDescription": [
+        "",
+        "",
         "Premium Ad drops to $379.99 per ad when 4 or more are purchased"
       ],
       "premium": {

@@ -7,8 +7,7 @@ import {Cart} from '../features/adsCheckout';
 
 export default (props: RouteComponentProps<{ customer: customerModels.CustomerId }>) => (
   <React.Fragment>
-    <h1>Ad Products</h1>
-    <Products routeProps={props} />
+    <Products customerId={props.match.params.customer} />
     <Cart customerId={props.match.params.customer}/>
   </React.Fragment>
 );

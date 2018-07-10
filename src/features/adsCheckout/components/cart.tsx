@@ -25,13 +25,13 @@ const Cart = ({products, total, discounts}: Props) => {
     <em>Please add some Ad products.</em>
   );
 
-  const rulesDescription = discounts.rulesDescription && discounts.rulesDescription.length ?
+  /*const rulesDescription = discounts.rulesDescription && discounts.rulesDescription.length ?
     (discounts.rulesDescription.map((rule, index) => <li key={index}>{rule}</li>)) : '';
+    */
 
   return (
     <div>
       <h3>Your Cart</h3>
-      <ul>{rulesDescription}</ul>
       <div>{nodes}</div>
       <p>Total: &#36;{total}</p>
     </div>

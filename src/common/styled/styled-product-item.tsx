@@ -23,6 +23,16 @@ const StyledProductItem = styled.div`
       margin: 0 0 0.5em;
       text-transform: uppercase;
     }
+    ul {
+      list-style-type: none;
+      color: #796583;
+      font-size: 0.75em;
+      list-style-type: none;
+      padding: 0;
+      li {
+        margin: 1px 0 0.83em;
+      }
+    }
 `;
 
 export default StyledProductItem;
